@@ -27,6 +27,3 @@ build/Release
 node_modules
 .gatsby-context.js
 .sass-cache/
-
-.cache/
-package-lock.json
