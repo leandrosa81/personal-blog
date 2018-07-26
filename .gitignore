@@ -29,5 +29,4 @@ node_modules
 .sass-cache/
 
 .cache/
-public/
 package-lock.json
