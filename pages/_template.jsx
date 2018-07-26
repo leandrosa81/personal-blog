@@ -38,7 +38,7 @@ module.exports = React.createClass({
                 textDecoration: 'none',
               }}
             >
-              Your Brand!
+             lugarinho.tech
             </Link>
           </Container>
         </Headroom>
