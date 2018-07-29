@@ -4,7 +4,7 @@ import { prefixLink } from 'gatsby-helpers'
 import Helmet from "react-helmet"
 import { config } from 'config'
 
-export default class Index extends React.Component {
+export default class Blog extends React.Component {
   render () {
     return (
       <div>
@@ -14,16 +14,14 @@ export default class Index extends React.Component {
             {"name": "description", "content": "lugarinho.tech"},
             {"name": "keywords", "content": "technology, development, software, blog, lugarinho"},
           ]}
-        />
-        <img src="https://source.unsplash.com/1200x200/?code" width='100%' alt="" />
-        
+        />        
         <h1>
           Hi :)
         </h1>
-        <p>This is my <Link to="/blog/">blog</Link>.</p>
-        <p>Curious? <Link to="/about/">Read more</Link> about me.</p>
+        <p>Welcome to my blog. I plan to share some articles and random thoughts about software development.</p>
         <p>This should be fun.</p>
-              
+        
+        <small><Link to="/about/">about me</Link></small>
       </div>
     )
   }
