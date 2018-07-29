@@ -29,7 +29,7 @@ export default class About extends React.Component {
         </p>
         
         <p>If you wish to contact me, please fill the form bellow:</p>
-        <form name="contact" method="POST" netlify>
+        <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Name <input type="text" name="name" style={{width: "50%"}} /></label>
   </p>
