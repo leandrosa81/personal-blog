@@ -38,7 +38,7 @@ module.exports = React.createClass({
                 textDecoration: 'none',
               }}
             >
-             leandro lugarinho; <span style={{color: "#BCBCBC"}}>// dev thoughts and whatnot</span>             
+             leandro lugarinho; <span style={{color: "#BCBCBC"}}>// dev, thoughts and whatnot</span>             
             </Link>
             <span style={{float: 'right'}}>
             <Link to="/blog/" style={{
