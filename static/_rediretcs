@@ -1,0 +1,2 @@
+# Redirect domain aliases to primary domain
+https://leandro.lugarinho.tech/* https://lugarinho.tech/:splat 301!
