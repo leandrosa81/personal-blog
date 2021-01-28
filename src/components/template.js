@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Headroom from 'react-headroom'
-import { rhythm } from '../utils/typography'
+import Typography from '../utils/typography'
 
 // styles
 const pageStyles = {
@@ -18,11 +18,13 @@ const contentStyles = {
 }
 
 
-export default function Template({ children }) {
+export default function Template({ children }) {  
+  
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
       <div>
+        
         <Headroom
 
           wrapperStyle={{

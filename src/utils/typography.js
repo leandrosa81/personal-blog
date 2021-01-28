@@ -38,5 +38,9 @@ if (process.env.NODE_ENV !== 'production') {
     head.insertAdjacentHTML('beforeend', googleFonts)
   }
 }
+else {
+  typography.injectStyles()
+}
+
 
 export default typography
