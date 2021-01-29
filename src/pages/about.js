@@ -12,7 +12,7 @@ const About = () => {
 		<h1>
           About me
         </h1>
-        <div style={{float: 'right', margin: 10, border: '1px solid black'}}><img src={logo} style={{width: '240px'}}/></div>
+        <div style={{float: 'right', margin: 10, border: '1px solid black'}}><img src={logo} alt="me" style={{width: '240px'}}/></div>
         <p>Hi, my name is Leandro. I write software since I was 16 years old (back in 1997).</p>
         <p>In a little more than 20 years, I learned a lot of things about programming and software architecture.
         I started with an IBM PS/1 PC, with a 486 SX 25 MHz processor (without an arithmetic coprocessor!).</p>

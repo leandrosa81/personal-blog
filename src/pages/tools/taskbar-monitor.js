@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import Template from "../../components/template"
 import example1 from "../../../assets/images/taskbar-monitor-example1.png";
 import example2 from "../../../assets/images/taskbar-monitor-example2.png";
@@ -16,7 +16,7 @@ const TaskbarMonitor = () => {
 
                 <p>A simple resource monitor for windows that resides on your taskbar.</p>
 
-                <img src={example1} />
+                <img alt="first example" src={example1} />
                 <p>It includes quite a few features already:</p>
                 <ul>
                     <li>CPU, memory, disk and network graphs;</li>
@@ -25,7 +25,7 @@ const TaskbarMonitor = () => {
                 </ul>
                 <p>Currently it works well with the dark theme and horizontal taskbars, but I am working on it to support a wider taskbar config variety.</p>
                 <h2>Download</h2>
-                <p>Releases are <a href="https://github.com/leandrosa81/taskbar-monitor/releases" target="_blank">available at Github.</a></p>
+                <p>Releases are <a href="https://github.com/leandrosa81/taskbar-monitor/releases" target="_blank" rel="noreferrer">available at Github.</a></p>
                 <p>Last version: 0.2.0</p>
                 <h2>Install instructions</h2>
                 
@@ -53,7 +53,7 @@ const TaskbarMonitor = () => {
                 <h2>Usage</h2>
                 <p>To activate it, you must select it on the taskbar context menu.</p>
                 <p>If you click with the right mouse button, a context menu will display several options:</p>
-                <img src={example2} />
+                <img alt="second example" src={example2} />
                 <p>In the future it will be replaced with a proper "Settings" dialog window.</p>
 
                 <h2>Roadmap</h2>
