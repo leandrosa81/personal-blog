@@ -30,7 +30,7 @@ const About = () => {
 
         <p>If you wish to contact me, please fill the form bellow:</p>
 
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
           <p>
             <label>Your name: <input type="text" name="name" style={{ width: "50%" }} /></label>
           </p>
@@ -40,6 +40,7 @@ const About = () => {
           <p>
             <label>Please, write your message below:<br /><textarea name="message" style={{ width: "80%", height: '200px' }}></textarea></label>
           </p>
+          <div data-netlify-recaptcha="true"></div>
           <p>
             <button type="submit">Send it</button>
           </p>
