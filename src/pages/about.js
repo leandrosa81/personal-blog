@@ -26,7 +26,7 @@ const About = () => {
         <p>In the 90s, I started programming with PHP and Perl in a small internet provider. After that, I learned Java and all the little technologies
         you would have to learn to build 'corporate' systems (JSP, J2EE, java beans, etc.).
         </p>
-        <p>In the 2000s, I switched to the .Net platform, learned C# and hava been building enterprise systems since.</p>
+        <p>In the 2000s, I switched to the .Net platform, learned C# and have been building enterprise systems since.</p>
 
         <p>If you wish to contact me, please fill the form bellow:</p>
 
@@ -45,8 +45,6 @@ const About = () => {
             <button type="submit">Send it</button>
           </p>
         </form>
-
-        <small>last edited: 2018-07-29 15:01</small>
         <br />
         <small><Link to="/">back to home</Link></small>
       </div>
