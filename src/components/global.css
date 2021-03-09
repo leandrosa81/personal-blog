@@ -1,7 +1,7 @@
 html { font-size:100%; }
 
 /* NAVIGATION */
-ol, ul {
+nav ol, nav ul {
 	list-style: none;
 }
 nav.navigation{
@@ -71,7 +71,7 @@ span.icon-bar{
   top:31px;
 }
 .nav-overlay{
-	position:absolute;
+	position:fixed;
 	top:0;
 	right:0;
 	bottom:0;
@@ -129,11 +129,12 @@ span.icon-bar{
 	}
 	ul.nav-menu li{
 		width:100%;
-		margin: 1px
+		margin: 1px;		
 	}
 	ul.nav-menu li a{
 		width:100%;
 		padding:0;
+		padding-top: 10px;
 		text-align:center;
 		background-color:#2c2c2c;
 	}
