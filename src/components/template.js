@@ -29,7 +29,7 @@ export default function Template({ children }) {
           <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
           <meta name="HandheldFriendly" content="true"/>
           <title>Lugarinho.tech</title>
-          <link rel="canonical" href="http://mysite.com/example" />
+          <link rel="canonical" href="https://lugarinho.tech/" />
         </Helmet>      
       <div>
 
