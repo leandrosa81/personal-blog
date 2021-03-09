@@ -26,7 +26,7 @@ const TaskbarMonitor = () => {
                 <p>Currently it works well with the dark theme and horizontal taskbars, but I am working on it to support a wider taskbar config variety.</p>
                 <h2>Download</h2>
                 <p>Releases are <a href="https://github.com/leandrosa81/taskbar-monitor/releases/latest" target="_blank" rel="noreferrer">available at Github.</a></p>
-                <p>Last version: 0.3.0</p>
+                
                 <h2>Install instructions</h2>
                 
                 <p>To install the taskbar-monitor, first make sure you have <a href="https://dotnet.microsoft.com/download/dotnet-framework/net472" target="_blank" rel="noreferrer">.NET Framework 4.7.2 runtime</a> installed on your computer. If you use Windows 10 1803 April 2018 or later, it is already installed on your computer. Then, download the TaskbarMonitorInstaller.exe installer and run it.</p>
