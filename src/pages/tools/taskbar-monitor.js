@@ -3,6 +3,9 @@ import React from 'react'
 import Template from "../../components/template"
 import example1 from "../../../assets/images/taskbar-monitor-example1.png";
 import example2 from "../../../assets/images/taskbar-monitor-example2.png";
+import example3 from "../../../assets/images/taskbar-monitor-example3.png";
+import example4 from "../../../assets/images/taskbar-monitor-example4.png";
+import example5 from "../../../assets/images/taskbar-monitor-animation01.gif";
 
 const TaskbarMonitor = () => {
     return (
@@ -17,6 +20,9 @@ const TaskbarMonitor = () => {
                 <p>A simple resource monitor for windows that resides on your taskbar.</p>
 
                 <img alt="first example" src={example1} />
+                <p>Animated example:</p>
+                <img alt="animation example" src={example5} />
+                
                 <p>It includes quite a few features already:</p>
                 <ul>
                     <li>CPU, memory, disk and network graphs;</li>
@@ -41,7 +47,7 @@ const TaskbarMonitor = () => {
                 running the following cmd (with admin privileges):
                         </p>
                 <pre>%SystemRoot%\Microsoft.NET\Framework64\v4.0.30319\regasm.exe /nologo /codebase "TaskbarMonitor.dll"</pre>
-                <h4>Uninstall</h4>
+                <h2>Uninstall</h2>
                 <p>To uninstall it, run the installer with "/uninstall" parameter</p>
                 <pre>TaskbarMonitorInstaller.exe /uninstall</pre>
                 <p>This will unregister the DLL and delete the files and folder on your PROGRAM FILES (x86) folder.</p>
@@ -54,16 +60,27 @@ const TaskbarMonitor = () => {
                 <h2>Usage</h2>
                 <p>To activate it, you must select it on the taskbar context menu. Right click on your tasbak, go to "Taskbar", then select "Taskbar Monitor".</p>
                 <p>If you click with the right mouse button, a context menu will display several options:</p>
-                <img alt="second example" src={example2} />                
+                <img alt="second example" src={example2} />
+                <p><strong>General</strong> tab:</p>                
+                <img alt="third example" src={example3} />
+                <p>Here you can change:</p>
+                <ul>
+                    <li>History size: amount of historical data to display. This will impact directly in the deskband size. If you change this, make sure to unlock and unlock the taskbar again to display the monitor correctly.</li>
+                    <li>Poll time: number of seconds between each update.</li>
+                    <li>Visual group: here you can change font family, size and colors used on the graphs.</li>
+                </ul>
+                <p><strong>Graphs</strong> tab:</p>
+                <img alt="fourth example" src={example4} />
 
                 <h2>Roadmap</h2>
                 <p>In the future, I plan to add some interesting features to this tool:</p>
-                <ul>
+                <ul>                    
+                    <li>theme selection</li>
+                    <li>support for light theme</li>                    
+                    <li>allow adding new graphs (plugins, eg. GPU, stock quotes)</li>
                     <li style={{textDecoration: "line-through"}}>Settings dialog window.</li>
                     <li style={{textDecoration: "line-through"}}>Save config on disk (per user, on appdata\programs folder)</li>
-                    <li>theme selection</li>
                     <li style={{textDecoration: "line-through"}}>full graph customization (size, labels, etc.)</li>
-                    <li>allow adding new graphs (plugins, eg. GPU, stock quotes)</li>
                 </ul>
 
                 <h2>Troubleshooting</h2>

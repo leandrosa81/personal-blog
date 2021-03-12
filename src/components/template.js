@@ -66,7 +66,7 @@ export default function Template({ children }) {
               <span style={{   }}>
               leandro lugarinho;
               <br className="responsive" />
-              <span style={{ color: "#BCBCBC" }}>// dev, thoughts and tools</span>
+              <span style={{ color: "#BCBCBC" }}>&nbsp;// tools and thoughts about software development</span>
               </span>
             </Link>
             <span style={{ float: 'right' }}>

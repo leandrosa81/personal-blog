@@ -169,11 +169,13 @@ span.icon-bar{
 img { max-width: 100%; height: auto; }
 pre {white-space: pre-wrap; 
 	word-break: break-word; }
-br.responsive {
+
+	br.responsive {
 	display: inline;
+}
+
+@media (min-width: 1120px) { 
+	br.responsive {
+		display: none; 
 	}
-	@media (min-width: 420px) { 
-		br.responsive {
-		  display: none; 
-		}
-	  }	  
+}	  
