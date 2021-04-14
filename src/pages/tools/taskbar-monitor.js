@@ -2,6 +2,7 @@ import React from 'react'
 //import { Link } from "gatsby"
 import Template from "../../components/template"
 import example1 from "../../../assets/images/taskbar-monitor-example1.png";
+import example1a from "../../../assets/images/taskbar-monitor-example1a.png";
 import example2 from "../../../assets/images/taskbar-monitor-example2.png";
 import example3 from "../../../assets/images/taskbar-monitor-example3.png";
 import example4 from "../../../assets/images/taskbar-monitor-example4.png";
@@ -19,7 +20,8 @@ const TaskbarMonitor = () => {
 
                 <p>A simple resource monitor for windows that resides on your taskbar.</p>
 
-                <img alt="first example" src={example1} />
+                <img alt="first example (dark theme)" src={example1} /><br/>
+                <img alt="second example (light theme)" src={example1a} />
                 <p>Animated example:</p>
                 <img alt="animation example" src={example5} />
                 
