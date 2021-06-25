@@ -60,7 +60,7 @@ const TaskbarMonitor = () => {
 
 
                 <h2>Usage</h2>
-                <p>To activate it, you must select it on the taskbar context menu. Right click on your tasbak, go to "Taskbar", then select "Taskbar Monitor".</p>
+                <p>To activate it, you must select it on the taskbar context menu. Right click on your taskbak, go to "Taskbar", then select "Taskbar Monitor".</p>
                 <p>If you click with the right mouse button, a context menu will display several options:</p>
                 <img alt="second example" src={example2} />
                 <p><strong>General</strong> tab:</p>                
