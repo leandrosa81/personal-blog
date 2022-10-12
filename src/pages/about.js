@@ -9,9 +9,9 @@ const About = () => {
     <Template>
       <div>
 
-        <h1>
+        <h2>
           About me
-        </h1>
+        </h2>
         <div style={{ float: 'right', margin: 10, border: '1px solid black' }}><img src={logo} alt="me" style={{ width: '240px' }} /></div>
         <p>Hi, my name is Leandro. I write software since I was 16 years old (back in 1997).</p>
         <p>In a little more than 20 years, I learned a lot of things about programming and software architecture.

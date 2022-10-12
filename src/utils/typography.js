@@ -7,7 +7,15 @@ import CodePlugin from 'typography-plugin-code'
 const options = {
   googleFonts: [
     {
-      name: 'Roboto',
+      name: 'PT Serif',
+      styles: [
+        '400',
+        '400i',        
+        '700'
+      ]
+    },
+    {
+      name: 'Crimson Text',
       styles: [
         '400',
         '400i',        
@@ -15,8 +23,8 @@ const options = {
       ]
     }
   ],
-  headerFontFamily: ['Roboto', 'sans-serif'],
-  bodyFontFamily: ['Roboto', 'sans-serif'],
+  headerFontFamily: ['Crimson Text', 'serif'],
+  bodyFontFamily: ['PT Serif', 'serif'],
   baseFontSize: '18px',
   baseLineHeight: 1.65,
   scale: 2.25,

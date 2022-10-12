@@ -7,8 +7,7 @@ import "./global.css"
 
 // styles
 const pageStyles = {
-  color: "#232129",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  color: "#232129",  
 
 }
 
@@ -20,8 +19,8 @@ const contentStyles = {
 }
 
 
-export default function Template({ children }) {
-
+const Template = (props) => {
+let {children} = props;
   return (
     <main style={pageStyles}>
       <Helmet>
@@ -135,3 +134,4 @@ export default function Template({ children }) {
       $('.nav-overlay').toggleClass('active');
   })
 })(jQuery);*/
+export default Template;
