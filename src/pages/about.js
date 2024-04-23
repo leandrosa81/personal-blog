@@ -42,7 +42,7 @@ const About = () => {
           </p>
           <div data-netlify-recaptcha="true"></div>
           <p>
-            <button type="submit">Send it</button>
+            <button type="submit">Send it!</button>
           </p>
         </form>
         <br />
