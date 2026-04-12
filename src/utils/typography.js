@@ -48,6 +48,13 @@ if (process.env.NODE_ENV !== 'production') {
 }
 else {
   typography.injectStyles()
+  if (typeof document !== 'undefined') {
+    const googleFonts = ReactDOM.renderToStaticMarkup(
+      React.createFactory(GoogleFont)({ typography })
+    )
+    const head = document.getElementsByTagName('head')[0]
+    head.insertAdjacentHTML('beforeend', googleFonts)
+  }
 }
 
 

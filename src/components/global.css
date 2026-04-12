@@ -12,7 +12,7 @@
 	font-display: swap;
 	font-style: normal;
 	font-named-instance: 'Bold';
-	src: url(/fonts/PT_SerifPTSerif-Bold.ttf) format("ttf");
+	src: url(/fonts/PT_Serif/PTSerif-Bold.ttf) format("ttf");
   }
 
 html { 
@@ -21,10 +21,11 @@ html {
 		letter-spacing: .002em;
 		word-spacing: .05em;
 		line-height: 1.5;
+		font-family: 'PT_Serif';
 	
 }
 h1 {
-    font-family: crimson text!important;
+    font-family: 'crimson text'!important;
     font-size: 2.625rem;
     margin-bottom: 10px;
 }
